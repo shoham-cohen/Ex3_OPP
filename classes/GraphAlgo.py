@@ -95,7 +95,6 @@ class GraphAlgo(GraphAlgoInterface):
                     d["w"] = self.graph.nodes[i].edges[j].w
                     d["dest"] = self.graph.nodes[i].edges[j].des
                     list_of_edge.append(d)
-        print(list_of_edge)
         for i in self.graph.nodes:
             d = dict()
             position = str(self.graph.nodes[i].pos.x)
@@ -108,7 +107,6 @@ class GraphAlgo(GraphAlgoInterface):
             list_of_nodes.append(d)
         dic["edge"] = list_of_edge
         dic["nodes"] = list_of_nodes
-        print(dic)
         try:
             with open(file_name, 'w') as json_file:
                 json.dump(dic, json_file)
