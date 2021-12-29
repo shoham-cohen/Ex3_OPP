@@ -1,8 +1,8 @@
 import random
 
-from Ex3.EdgeData import EdgeData
-from Ex3.NodeData import NodeData
-from Ex3.position import position
+from classes.EdgeData import EdgeData
+from classes.NodeData import NodeData
+from classes.position import position
 
 
 class DiGraph:
