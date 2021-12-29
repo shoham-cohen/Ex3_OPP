@@ -1,12 +1,12 @@
 import random
-from Ex3.EdgeData import EdgeData
+from classes.EdgeData import EdgeData
 import math
 from typing import List
 from future.moves import tkinter
 from future.moves.tkinter import simpledialog, messagebox
 from DiGraph import DiGraph
-from Ex3.NodeData import NodeData
-from Ex3.position import position
+from classes.NodeData import NodeData
+from classes.position import position
 from GraphAlgoInterface import GraphAlgoInterface
 import json
 import pygame
