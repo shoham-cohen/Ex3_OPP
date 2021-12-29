@@ -67,3 +67,24 @@ at the end the node with the smallest chosen value is the center node.
 * save_to_json: saves the graph to a new json file.
 * load_from_json: load a new graph from a json file.
 * plot_graph: The GUI, drawing the nodes and edges by their position. The GUI include option the see the center Node, TSP of inputted nodes id's and the shortest path between two inputted nodes.
+
+## RESULTS
+
+### 1,000Nodes
+* CenterPoint: 1 min 21 sec 457.509 ms
+* TSP: 165.0675 ms
+* load_from_json: 39.1056 ms
+* save_to_json: 115.2535 ms
+* shortestPath: 80.5068 ms
+
+### 10,000Nodes
+* CenterPoint: timeout
+* TSP: 13.409374 sec
+* load_from_json: 409.2976 ms
+* save_to_json: 1.221716 sec
+* shortestPath:  6.710115 sec
+
+### 100,000Nodes
+* cant load the file
+
+
