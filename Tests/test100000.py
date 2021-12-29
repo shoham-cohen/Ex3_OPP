@@ -1,7 +1,7 @@
 import unittest
 import time
 
-from Ex3.GraphAlgo import GraphAlgo
+from classes.GraphAlgo import GraphAlgo
 
 
 class Test10000(unittest.TestCase):
