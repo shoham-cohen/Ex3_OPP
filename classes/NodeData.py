@@ -1,5 +1,5 @@
-from Ex3.position import position
-from Ex3.EdgeData import EdgeData
+from classes.position import position
+from classes.EdgeData import EdgeData
 
 
 class NodeData:
